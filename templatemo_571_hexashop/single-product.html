@@ -93,13 +93,15 @@ https://templatemo.com/tm-571-hexashop
     <!-- ***** Header Area End ***** -->
 
     <!-- ***** Main Banner Area Start ***** -->
+    <!-- class page-heading bên link css có sẵn background hình ảnh -->
     <div class="page-heading" id="top">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
+                    <!-- sử dụng class inner-content để thêm nội dung vào page heading -->
                     <div class="inner-content">
-                        <h2>Single Product Page</h2>
-                        <span>Awesome &amp; Creative HTML CSS layout by TemplateMo</span>
+                        <h2>Trang sản phẩm</h2>
+                        <span>Những kho báu nhỏ tôn vinh sự hài hoà của màu sắc và các chất liệu tự nhiên</span>
                     </div>
                 </div>
             </div>
@@ -109,19 +111,23 @@ https://templatemo.com/tm-571-hexashop
 
 
     <!-- ***** Product Area Starts ***** -->
+    <!-- sử dụng class section để thêm nội dung cho trang -->
     <section class="section" id="product">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
+                <!-- chèn hình ảnh sản phẩm bên trái -->
                 <div class="left-images">
-                    <img src="assets/images/single-product-01.jpg" alt="">
-                    <img src="assets/images/single-product-02.jpg" alt="">
+                    <img src="assets/images/leinne_hat_01.01@2x.jpg" alt="">
+                    <img src="assets/images/leinne_hat_01.02@2x.jpg" alt="">
                 </div>
             </div>
             <div class="col-lg-4">
+                <!-- Thông tin sản phẩm bên phải -->
                 <div class="right-content">
-                    <h4>New Green Jacket</h4>
-                    <span class="price">$75.00</span>
+                    <h4>Nón beret len đan thủ công Amelia</h4>
+                    <span class="price">4.300.000VND</span> 
+                    <!-- đánh giá của sản phẩm trên thang điểm 5 sao -->
                     <ul class="stars">
                         <li><i class="fa fa-star"></i></li>
                         <li><i class="fa fa-star"></i></li>
@@ -129,23 +135,32 @@ https://templatemo.com/tm-571-hexashop
                         <li><i class="fa fa-star"></i></li>
                         <li><i class="fa fa-star"></i></li>
                     </ul>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod kon tempor incididunt ut labore.</span>
+                    <!-- mô tả sản phẩm -->
+                    <span>Chiếc nón beret cổ điển kiểu Pháp được biến tấu một cách vui tươi và thời thượng qua chiếc nón Amelia. 
+                        Thiết kế mang đặc trưng là chỏm nón phẳng, tròn, phom dáng oversized, những sọi kim tuyến lấp lánh lấy cảm hứng 
+                        từ những mảng màu của Paris và vùng núi Ladakh (Ấn Độ), thêm ánh sáng vào vẻ ngoài trong những ngày mùa đông. 
+                        Chất liệu len dày dặn, ấm áp vừa giúp giữ ấm vừa mang đến sự thanh lịch. Bạn có thể đội Amelia lệch sang một bên theo kiểu Pháp, 
+                        hoặc trùm qua tai để giữ ấm trong những ngày se lạnh.</span>
                     <div class="quote">
-                        <i class="fa fa-quote-left"></i><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiuski smod.</p>
+                        <i class="fa fa-quote-left"></i><p>Bộ sưu tập: Softness Optimism</p>
                     </div>
+                    <!-- class quantity-content dùng cho nội dung số lượng sản phẩm -->
                     <div class="quantity-content">
                         <div class="left-content">
-                            <h6>No. of Orders</h6>
+                            <h6>Số lượng: </h6>
                         </div>
                         <div class="right-content">
                             <div class="quantity buttons_added">
+                                <!-- tối thiểu là 1 sản phẩm, bước là 1, không giới hạn số sản phẩm tối đa -->
                                 <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
                             </div>
                         </div>
                     </div>
                     <div class="total">
-                        <h4>Total: $210.00</h4>
-                        <div class="main-border-button"><a href="#">Add To Cart</a></div>
+                        <!-- chưa thể tính tổng giá tiền -->
+                        <h4>Total: </h4>
+                        <!-- nút thêm vào giỏ hàng -->
+                        <div class="main-border-button"><a href="#">Thêm vào giỏ hàng</a></div>
                     </div>
                 </div>
             </div>
@@ -160,52 +175,73 @@ https://templatemo.com/tm-571-hexashop
             <div class="row">
                 <div class="col-lg-3">
                     <div class="first-item">
-                        <div class="logo">
+                        <!-- do nhóm chưa có logo nên ẩn đoạn này
+                        <div class="logo"> 
                             <img src="assets/images/white-logo.png" alt="hexashop ecommerce templatemo">
-                        </div>
+                        </div> -->
+
+                        <!-- Tiêu đề cho menu footer số 1 -->
+                        <h4>KHÁM PHÁ</h4>
+                        <!-- Danh sách menu footer số 1 -->
                         <ul>
-                            <li><a href="#">16501 Collins Ave, Sunny Isles Beach, FL 33160, United States</a></li>
-                            <li><a href="#">hexashop@company.com</a></li>
-                            <li><a href="#">010-020-0340</a></li>
+                            <li><a href="#">Dịch vụ bảo hành</a></li>
+                            <li><a href="#">Hướng dẫn chăm sóc sản phẩm</a></li>
+                            <li><a href="#">Hướng dẫn số đo</a></li>
+                            <li><a href="#">Câu hỏi thường gặp</a></li>
+                            <li><a href="#">Thời gian giao hàng</a></li>
+                            <li><a href="#">Chính sách đổi trả</a></li>
+                            <li><a href="#">Điều khoản dịch vụ</a></li>
                         </ul>
                     </div>
                 </div>
+
                 <div class="col-lg-3">
-                    <h4>Shopping &amp; Categories</h4>
+                    <!-- Tiêu đề cho menu footer số 2 -->
+                    <h4>THÔNG TIN</h4>
+                    <!-- Danh sách menu footer số 2 -->
                     <ul>
-                        <li><a href="#">Men’s Shopping</a></li>
-                        <li><a href="#">Women’s Shopping</a></li>
-                        <li><a href="#">Kid's Shopping</a></li>
+                        <li><a href="#">Về Leinné</a></li>
+                        <li><a href="#">Các cửa hàng</a></li>
+                        <li><a href="#">Báo chí</a></li>
+                        <li><a href="#">Tuyển dụng</a></li>
+                        <li><a href="#">Quy trình sản xuất</a></li>
+                        <li><a href="#">Trở thành đối tác bán hàng</a></li>
                     </ul>
                 </div>
+
                 <div class="col-lg-3">
-                    <h4>Useful Links</h4>
+                    <!-- Tiêu đề cho menu footer số 3 -->
+                    <h4>LIÊN HỆ</h4>
+                    <!-- Danh sách menu footer số 3 -->
                     <ul>
-                        <li><a href="#">Homepage</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Địa chỉ: 279 Nguyễn Tri Phương, phường 5, quận 10, Thành phố Hồ Chí Minh <br>
+                            (8:00 - 20:00 thứ hai đến thứ bảy)</a></li>
+                        <li><a href="#">Hotline: 0279 279 279</a></li>
+                        <li><a href="#">Email: leinne279@gmail.com</a></li>
                     </ul>
                 </div>
+
                 <div class="col-lg-3">
-                    <h4>Help &amp; Information</h4>
+                    <!-- Tiêu đề cho menu footer số 4 -->
+                    <h4>KẾT NỐI</h4>
+                    <!-- Danh sách menu footer số 4 -->
                     <ul>
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">FAQ's</a></li>
-                        <li><a href="#">Shipping</a></li>
-                        <li><a href="#">Tracking ID</a></li>
+                        <li><a href="#">Trở thành người đầu tiên nhận thông báo về sự kiện, ưu đãi và những bất ngờ đặc biệt dành riêng cho bạn.</a></li>
+                        <li><a href="#">Đăng ký ngay</a></li>
                     </ul>
                 </div>
+
                 <div class="col-lg-12">
                     <div class="under-footer">
-                        <p>Copyright © 2022 HexaShop Co., Ltd. All Rights Reserved. 
+                        <p>Copyright © 2023 Leinné Co., Ltd. All Rights Reserved. 
                         
                         <br>Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a></p>
+                        <!-- Các mạng xã hội liên kết, tài nguyên có sẵn của template-->
                         <ul>
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
                         </ul>
                     </div>
                 </div>
